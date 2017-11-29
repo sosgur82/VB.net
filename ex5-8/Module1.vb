@@ -21,7 +21,7 @@
         If n <= 1 Then
             Power = x
         Else
-            Power = x * Power(x, n - 1)
+            Power = x ^ n
         End If
     End Function
 End Module

@@ -8,14 +8,12 @@
         strStudentName = ""
         intMathScore = 0
         intEngScore = 0
-
     End Sub
 
     Public Sub New(ByVal strName As String, ByVal intMScore As Integer, ByVal intEScore As Integer)
         strStudentName = strName
         intMathScore = intMScore
         intEngScore = intEScore
-
     End Sub
 
     Public Overridable Sub PrintScore()
